@@ -1,0 +1,75 @@
+# ===========================================================================
+# Soporte: Comandos de configuracion 
+# ===========================================================================
+
+# ===========================================================================
+# GENERAL COMMANDS
+# ===========================================================================
+
+General:
+  Help: # Comando de ayuda
+    Enabled: true
+    Description: "Muestra una linda con los comandos"
+  Ping: # Comando de ping
+    Enabled: true
+    Description: "Arroja el ping del bot"
+  Stats: # Estadisticas
+    Enabled: true
+    Description: "Muestra las stats del bot"
+  Suggest: # Comando de sugerencia
+    Enabled: true
+    Description: "Envia una sugerencia"
+
+# ===========================================================================
+# TICKET COMANDOS
+# ===========================================================================
+
+Ticket:
+  Add: # Agregar un usuario al ticket
+    Enabled: true
+    Description: "Agregar un usuario al ticket"
+  Remove: # Elimina un usuario del ticket
+    Enabled: true
+    Description: "Eliminar un usuario del ticket"
+  Close: # Cierra un ticket
+    Enabled: true
+    Description: "Cerrar un ticket"
+  Delete: # Borrar un ticket
+    Enabled: true
+    Description: "Elimina un ticket"
+  Panel: # Panel de tickets
+    Enabled: true
+    Description: "Enviar el panel de entradas"
+  Pin: # Fijar
+    Enabled: true
+    Description: "Fijar un ticket"
+  Rename: # Renombra un ticket
+    Enabled: true
+    Description: "Renombra un ticket"
+  Alert: # Comando de alerta
+    Enabled: true
+    Description: "Haga ping al creador con un mensaje que diga que el ticket se cerrará si no se recibe una respuesta."
+
+# ===========================================================================
+# COMANDOS DE UTILIDAD
+# ===========================================================================
+
+Utility:
+  Blacklist: # Blacklist command
+    Enabled: true
+    Description: "Blacklist a user from creating tickets"
+  Unblacklist: # Unblacklist command
+    Enabled: true
+    Description: "Unblacklist a user from creating tickets"
+  Calculate: # Calculate command
+    Enabled: true
+    Description: "Math Calculator"
+  Crypto: # Crypto command
+    Enabled: true
+    Description: "Send a Crypto Payment"
+  Paypal: # Paypal command
+    Enabled: true
+    Description: "Send a paypal invoice to a user"
+  Stripe: # Stripe command
+    Enabled: true
+    Description: "Send a stripe invoice to a user"
